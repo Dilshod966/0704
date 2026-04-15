@@ -1,14 +1,7 @@
-let x, y, z;
-x = 3;
-y = 7;
-z = 3;
+let z, x, y;
+    x = 2;
+    y = 1;
 
-if(x>0){
-console.log(x = x ** 2);
-}
-if(y>0){
-console.log(y=y ** 2);
-}
-if(z>0){
-    console.log(z=z **2);
-}
+z = Math.log(Math.abs((x+y)*(x+y)+Math.sqrt(Math.abs(y)+2)-(x-(x*y)/(x*x/2-5))))+Math.cos(x+y)*Math.cos(x+y)/Math.pow((x+y),1/3)
+
+    console.log(z.toFixed(2))
