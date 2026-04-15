@@ -1,16 +1,12 @@
 let a, b, c;
 
-a=2;
-b=-1;
-c=-3
+a = 6;
+b = 6;
+c = 6;
 
-if(a>b){
-   if(a>c) 
-    console.log('kattasi'+a)
-else{
-    console.log('kattasi'+b)
- }
+if(a>=b && b>=c){ 
+    console.log(a*2+" "+b*2+" "+c*2)
 }
-   
-
-
+else {
+    console.log(Math.abs(a)+ " " + Math.abs(b)+ " " + Math.abs(c))
+}
